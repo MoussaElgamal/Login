@@ -14,15 +14,26 @@
 
   <body>
     
+    
+    
+
     <div class="box">
       <h1>Smart Login System</h1>
       <input class="form-control bg-transparent text-white d-none" id="myName" type="email" placeholder="Enter your name">
       <input class="form-control bg-transparent text-white" id="myEmail" type="email" placeholder="Enter your email">
       <input class="form-control bg-transparent text-white mb-4" id="myPassword" type="password" placeholder="Enter your password">
 
-      <button id="btnLogin" class="py-2 form-control bg-transparent" >Login</button>
+      <button id="btnLogin" class="py-2 form-control bg-transparent" >Log In</button>
       <h6 class="text-white m-2">Don't have an account? <a id="submit" href="#"class="text-white">Sign Up</a></h6>
+      <p id="alert-signup" class="d-none text-bg-danger">Sign up Faild</p>
+      <p id="success-signup" class="d-none text-bg-success">Sign up correct</p>
     </div>
+
+    <div id="myHome" class="home d-none position-absolute top-0 end-0 start-0 bottom-0 bg-white vh-100 vw-100">
+
+    </div>
+
+
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
